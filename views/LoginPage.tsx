@@ -21,7 +21,7 @@ const LoginPage: React.FC = () => {
     // Simulação de delay para feedback visual premium
     setTimeout(() => {
       const authorizedUsers = [
-        { email: 'samuelalvesmartins18@gmail.com', password: 'admin123' },
+        { email: 'samuelalvesmartins18@gmail.com', password: '@SenhaForte2026' },
         { email: 'cadusantos.paiva@gmail.com', password: '@SrCaduher901' }
       ];
 
