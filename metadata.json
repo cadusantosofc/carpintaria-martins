@@ -1,0 +1,7 @@
+{
+  "name": "Carpintaria Martins - Premium Craftsmanship",
+  "description": "A high-end landing page for a boutique carpentry business featuring a complete CMS for managing gallery projects and company information.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
