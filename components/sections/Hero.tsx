@@ -35,17 +35,17 @@ const Hero: React.FC<HeroProps> = ({ content, whatsapp }) => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <span className="text-[#D4AF37] text-sm md:text-base font-bold tracking-[0.3em] md:tracking-[0.4em] uppercase mb-4 md:mb-6 block">
+          <span className="text-[#D4AF37] text-xs md:text-sm lg:text-base font-bold tracking-[0.2em] md:tracking-[0.3em] lg:tracking-[0.4em] uppercase mb-3 md:mb-4 lg:mb-6 block">
             Samuel Alves Martins
           </span>
-          <h1 className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl text-white font-serif font-bold mb-4 md:mb-6 leading-tight">
+          <h1 className="text-xl md:text-3xl lg:text-5xl xl:text-6xl text-white font-serif font-bold mb-3 md:mb-4 lg:mb-6 leading-tight">
             {content.heroTitle}
           </h1>
-          <p className="text-white/90 text-base md:text-xl lg:text-2xl font-serif italic mb-6 md:mb-8 max-w-2xl mx-auto px-4 md:px-0">
+          <p className="text-white/90 text-sm md:text-lg lg:text-xl xl:text-2xl font-serif italic mb-4 md:mb-6 lg:mb-8 max-w-2xl mx-auto px-4 md:px-0">
             {content.heroSubtitle}
           </p>
           
-          <p className="text-gray-300 text-sm md:text-base lg:text-lg max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed px-4 md:px-0">
+          <p className="text-gray-300 text-xs md:text-sm lg:text-base max-w-2xl mx-auto mb-6 md:mb-8 lg:mb-10 leading-relaxed px-4 md:px-0">
             Na Carpintaria Martins, cada detalhe é pensado para valorizar seu espaço com elegância e durabilidade. Atendemos Assis e região com excelência e compromisso.
           </p>
 
@@ -60,12 +60,12 @@ const Hero: React.FC<HeroProps> = ({ content, whatsapp }) => {
             ))}
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center px-4 sm:px-0">
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4 justify-center px-4 sm:px-0">
             <a 
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-4 bg-[#D4AF37] text-white text-[11px] md:text-sm font-bold tracking-widest uppercase rounded-sm hover:bg-[#b8962c] transition-all shadow-xl flex items-center justify-center gap-2 group"
+              className="px-4 py-3 sm:px-6 sm:py-4 bg-[#D4AF37] text-white text-[10px] sm:text-[11px] md:text-sm font-bold tracking-widest uppercase rounded-sm hover:bg-[#b8962c] transition-all shadow-xl flex items-center justify-center gap-2 group"
             >
               Solicite seu orçamento agora
             </a>
@@ -78,7 +78,7 @@ const Hero: React.FC<HeroProps> = ({ content, whatsapp }) => {
                   element.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-              className="px-6 py-4 border-2 border-white text-white text-[11px] md:text-sm font-bold tracking-widest uppercase rounded-sm hover:bg-white hover:text-black transition-all flex items-center justify-center cursor-pointer"
+              className="px-4 py-3 sm:px-6 sm:py-4 border border-white/30 text-white text-[10px] sm:text-[11px] md:text-sm font-bold tracking-widest uppercase rounded-sm hover:bg-white/10 transition-all flex items-center justify-center gap-2"
             >
               Ver projetos realizados
             </a>
